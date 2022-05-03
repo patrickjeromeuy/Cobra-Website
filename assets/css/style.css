@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #e24d55;
+  color: #12519E;
   text-decoration: none;
 }
 
@@ -733,6 +733,7 @@ section {
   margin-top: 20px;
   position: relative;
 }
+
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -740,14 +741,17 @@ section {
   opacity: 1;
   border: 1px solid #12519e;
 }
+
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #12519e;
 }
+
 .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
 }
+
 .clients .swiper-slide img:hover {
   opacity: 1;
   filter: none;
@@ -893,7 +897,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(85, 98, 112, 0.6);
+  background: transparent;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1130,6 +1134,71 @@ section {
   margin-left: 8px;
 }
 
+.founder-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 40px;
+  color: #556270;
+}
+
+.founder-info span {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.founder-info span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #dee2e6;
+  bottom: 0;
+  left: 0;
+}
+
+.founder-info p {
+  margin: 10px 0 0 0;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.founder-info .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.founder-info .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background: #8795a4;
+}
+
+.founder-info .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.founder-info .social a:hover {
+  background: #12519E;
+}
+
+.founder-info .social a+a {
+  margin-left: 8px;
+}
+
+
 /*--------------------------------------------------------------
 # Our Skills
 --------------------------------------------------------------*/
@@ -1232,7 +1301,7 @@ section {
 /*--------------------------------------------------------------
 # Careers
 --------------------------------------------------------------*/
-.pricing .box {
+.careers .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1242,37 +1311,7 @@ section {
   overflow: hidden;
 }
 
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #12519E;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
+.careers ul {
   padding: 0;
   list-style: none;
   color: #444444;
@@ -1281,29 +1320,29 @@ section {
   font-size: 14px;
 }
 
-.pricing ul li {
+.careers ul li {
   padding-bottom: 16px;
 }
 
-.pricing ul i {
+.careers ul i {
   color: #12519E;
   font-size: 18px;
   padding-right: 4px;
 }
 
-.pricing ul .na {
+.careers ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
 
-.pricing .btn-wrap {
+.careers .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
 }
 
-.pricing .btn-buy {
+.careers .btn-buy {
   background: #12519E;
   display: inline-block;
   padding: 8px 35px 9px 35px;
@@ -1317,16 +1356,16 @@ section {
   transition: 0.3s;
 }
 
-.pricing .btn-buy:hover {
+.careers .btn-buy:hover {
   background: #12519E;
 }
 
-.pricing .featured h3 {
+.careers .featured h3 {
   color: #fff;
   background: #12519E;
 }
 
-.pricing .advanced {
+.careers .advanced {
   width: 200px;
   position: absolute;
   top: 18px;
@@ -1562,7 +1601,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #e24d55;
+  background: #12519E;
 }
 
 @-webkit-keyframes animate-loading {

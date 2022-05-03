@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -50,7 +52,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
 
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="about.html">Company</a></li>
               <li><a href="founders.html">Founders</a></li>
@@ -59,7 +61,8 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="partners-clients.html">Partners & Clients</a></li>
           <li><a href="careers.html" class="active">Careers</a></li>
-          <li><a href="contact.html" class="getstarted">Contact Us</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -85,38 +88,54 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Careers Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="careers" class="careers">
+      <div class="container divider-caption mb-5">
+
+        <h4>Careers</h4>
+        <h1>Join our Team</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, sequi repellat dignissimos perferendis
+          libero
+        </p>
+      </div>
       <div class="container">
 
         <div class="row">
 
           <div class="col-lg-8 offset-md-2">
+            <div class="card shadow-sm bg-body rounded border-0">
+              <div class="card-body">
+                <form action="" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <p style="font-weight: bold">Name</p>
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <p style="font-weight: bold">Email</p>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                        required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <p style="font-weight: bold">Job Category</p>
+                    <select class="form-control">
+                      <option>Consultant</option>
+                      <option>Data Scientist</option>
+                      <option>Designer</option>
+                      <option>Developer</option>
+                    </select>
+                  </div>
+                  <div class="form-text mb-3 mt-3">
+                    <p>Send your <strong> APPLICATION LETTER </strong>and <strong> RESUME</strong> to (<a
+                        style="color: #12519E;">b1g3.cobraitech@gmail.com</a>).</p>
+                  </div>
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn text-white" style="background-color: #12519E;">Submit</button>
+                  </div>
+                </form>
 
-            <form action="" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <p style="font-weight: bold">Name</p>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <p style="font-weight: bold">Email</p>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
               </div>
-              <div class="form-group mt-3">
-                <p style="font-weight: bold">Job Category</p>
-                <select class="form-control">
-                  <option>Consultant</option>
-                  <option>Data Scientist</option>
-                  <option>Designer</option>
-                  <option>Developer</option>
-                </select>
-              </div>
-              <div>
-                <p>Send your APPLICATION LETTER and RESUME to (<a style="color: red">b1g3.cobraitech@gmail.com</a>).</p>
-              </div>
-              <div class="text-center"><button type="submit">Send Application</button></div>
-            </form>
+            </div>
 
           </div>
 
@@ -176,8 +195,8 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Location</h4>
             <iframe style="border:0; width: 300; height: 300;"
-                src="https://maps.google.com/maps?q=cobra%20itech&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                allowfullscreen>
+              src="https://maps.google.com/maps?q=cobra%20itech&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              allowfullscreen>
             </iframe>
 
           </div>
@@ -200,7 +219,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
