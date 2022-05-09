@@ -854,6 +854,49 @@ section {
   color: #12519E;
 }
 
+.services .service-content {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.services .service-content i {
+  text-align: center;
+  color: #12519E;
+  font-size: 40px;
+}
+
+.services .service-content h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .service-content h4 a {
+  color: #556270;
+  transition: 0.3s;
+}
+
+.services .service-content i {
+  color: #556270;
+  transition: 0.3s;
+}
+
+.services .service-content:hover i {
+  color: #12519E;
+}
+
+.services .service-content p {
+  padding: 0px 30px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.services .service-content:hover h4 a {
+  color: #12519E;
+}
+
+
 /*--------------------------------------------------------------
 # Partners and Clients
 --------------------------------------------------------------*/
