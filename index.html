@@ -192,17 +192,17 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-1.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-2.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-3.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-4.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-5.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-6.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-7.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-8.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-9.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-10.webp" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients-partners/pc-11.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><a href="https://op-proper.gov.ph/" target="_blank"><img src="assets/img/clients-partners/pc-1.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.bir.gov.ph/" target="_blank"><img src="assets/img/clients-partners/pc-2.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.dof.gov.ph/" target="_blank"><img src="assets/img/clients-partners/pc-3.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://up.edu.ph/" target="_blank"><img src="assets/img/clients-partners/pc-4.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.uog.edu/" target="_blank"><img src="assets/img/clients-partners/pc-5.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.neu.edu.ph/main/" target="_blank"><img src="assets/img/clients-partners/pc-6.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.adb.org/" target="_blank"><img src="assets/img/clients-partners/pc-7.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.wellsfargo.com/" target="_blank"><img src="assets/img/clients-partners/pc-8.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.worldbank.org/en/home" target="_blank"><img src="assets/img/clients-partners/pc-9.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.accenture.com/us-en" target="_blank"><img src="assets/img/clients-partners/pc-10.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.ibm.com/ph-en" target="_blank"><img src="assets/img/clients-partners/pc-11.webp" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -479,7 +479,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <img src="/assets/img/logo-name-white.png" alt="" class="img-fluid mb-2">
+              <img src="assets/img/logo-name-white.png" alt="" class="img-fluid mb-2">
 
               <p>
                 Suite 402, Jade Place Condominium, 33 Visayas Avenue, Bgy. Vasra, QC <br>
@@ -568,6 +568,7 @@
       slidesPerView: 3,
       spaceBetween: 30,
       slidesPerGroup: 3,
+      speed: 400,
       loop: true,
       loopFillGroupWithBlank: true,
       pagination: {
@@ -581,18 +582,22 @@
       breakpoints: {
         320: {
           slidesPerView: 1,
+          slidesPerGroup: 1
 
         },
         480: {
           slidesPerView: 1,
+          slidesPerGroup: 1
 
         },
         640: {
-          slidesPerView: 1,
+          slidesPerView: 2,
+          slidesPerGroup: 2
 
         },
         992: {
           slidesPerView: 3,
+          slidesPerGroup: 3
         }
       }
     });

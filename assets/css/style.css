@@ -758,6 +758,38 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+.services .swiper-pagination {
+  margin-top: -25px;
+  position: relative;
+}
+
+.services .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #12519e;
+}
+
+.services .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #12519e;
+}
+
+.services .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.services .swiper-slide img:hover {
+  opacity: 1;
+  filter: none;
+}
+
+/*--------------------------------------------------------------
 # Feature
 --------------------------------------------------------------*/
 
